@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 25px;
+  color: gray;
+
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.hnav {
+  display: flex;
+}
+
+.btn1 {
+  color: green;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: green;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+section {
+  background-color: grey;
+  padding: 90px 0;
+  border-top: solid 3px green;
+  border-bottom: solid 3px green;
+}
+
+img {
+  height: 300px;
+  width: 600px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label {
+  font-size: 14px;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  width: 400px;
+  border: 2px solid green;
+}
+
+.btn2 {
+  color: green;
+  border: 1px solid green;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.footpart {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 110px;
+}
+
+.smedia {
+  display: flex;
+}
+
+.fa-brands {
+  margin-right: 10px;
+  color: gray;
+}
+
+.fa-brands:hover {
+  color: green;
+}
+
+footer {
+  margin: 20px 0;
+  border-bottom: solid green 1px;
+  padding-bottom: 20px;
+}
+
+.colorg {
+  color: green;
+}
+
+.copy1 {
+  text-align: center;
+  color: gray;
+}
+
+.nav5:hover {
+  color: gray;
+}
+
+.btn1:hover {
+  color: gray;
+  border: solid gray 1px;
+}
+.btn2:hover {
+  color: gray;
+  border: solid gray 1px;
+}
+
+.logo:hover {
+  color: green;
+}
+
+label:hover {
+  color: green;
+}
+
+.colorg:hover {
+  text-decoration: underline;
+  color: gray;
+}
